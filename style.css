@@ -1,0 +1,40 @@
+.color{
+   color: brown;
+}
+.half-width{
+    width: 50%;
+    margin: 40px;
+}
+section{
+    display: flex;
+}
+    
+
+.half-width img{
+    width: 30%;
+    margin: 20px;
+}
+.link-button{
+    text-decoration: none;
+    color: blue;
+    background-image: linear-gradient(orange,red);
+    
+    padding: 10px,20px;
+    font-weight: 700px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(240, 119, 240)
+}
+.flexible{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 70px;
+}
+.flexible-family{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 100px;
+}
